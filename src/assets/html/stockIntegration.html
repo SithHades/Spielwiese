@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/alert.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/jquery-3.3.1.js"></script>
+    <!--<script src="../js/chronousXMLHttpRequests.js"></script>-->
+    <script src="../js/gettingStockData.js"></script>
+    <title>Stocks!</title>
+</head>
+<body>
+<audio id="audio" controls style="display:none">
+    <source src="../audio/KeyboardSound1.wav" type="audio/wav"> Your browser does not support the audio element.
+</audio>
+<script>
+    document.addEventListener('keydown', function(e) {
+        if (e.keyCode != 16) {
+            document.getElementById('audio').play();
+        }
+    });
+</script>
+</body>
+</html>

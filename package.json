@@ -1,0 +1,22 @@
+{
+  "name": "Spielwiese",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iex-api": "0.0.3",
+    "intrinio-realtime": "^2.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "requirejs": "^2.3.5"
+  },
+  "devDependencies": {
+    "electron": "2.0.4"
+  }
+}
